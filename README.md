@@ -1,0 +1,2 @@
+# TareaAspectos
+Equipo 6
