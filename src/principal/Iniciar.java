@@ -20,27 +20,27 @@ public class Iniciar {
         
         boton1.addActionListener(new ActionListener(){  
         	public void actionPerformed(ActionEvent e){  
-        		pintarRojo();
+        		colorNaranja();
 		}  
 		});
         boton2.addActionListener(new ActionListener(){  
         	public void actionPerformed(ActionEvent e){  
-        		pintarVerde();
+        		colorVerde();
 		}  
 		});
         boton3.addActionListener(new ActionListener(){  
         	public void actionPerformed(ActionEvent e){  
-        		pintarAzul();
+        	colorRosa();
 		}  
 		});
     	}    
-	    public static void pintarRojo(){
+	    public static void colorNaranja(){
 			ventana.setBackground(Color.orange);
 	    }
-	    public static void pintarAzul(){
+	    public static void colorRosa(){
 			ventana.setBackground(Color.pink);
 	    }
-	    public static void pintarVerde(){
+	    public static void colorVerde(){
 			ventana.setBackground(Color.green);
 	    }
 
