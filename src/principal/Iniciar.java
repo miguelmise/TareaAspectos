@@ -11,8 +11,8 @@ public class Iniciar {
 		Boton boton1 = new Boton(ventana);
         Boton boton2 = new Boton(ventana);
         Boton boton3 = new Boton(ventana);
-        boton1.setBackground(Color.orange);
-        boton1.setLabel("Naranja");
+        boton1.setBackground(Color.CYAN);
+        boton1.setLabel("Celeste");
         boton2.setBackground(Color.green);
         boton2.setLabel("Verde");
         boton3.setBackground(Color.pink);
@@ -20,7 +20,7 @@ public class Iniciar {
         
         boton1.addActionListener(new ActionListener(){  
         	public void actionPerformed(ActionEvent e){  
-        		colorNaranja();
+        		colorCeleste();
 		}  
 		});
         boton2.addActionListener(new ActionListener(){  
@@ -34,8 +34,8 @@ public class Iniciar {
 		}  
 		});
     	}    
-	    public static void colorNaranja(){
-			ventana.setBackground(Color.orange);
+	    public static void colorCeleste(){
+			ventana.setBackground(Color.CYAN);
 	    }
 	    public static void colorRosa(){
 			ventana.setBackground(Color.pink);

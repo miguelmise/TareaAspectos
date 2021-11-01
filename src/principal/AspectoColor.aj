@@ -8,12 +8,12 @@ import java.util.Date;
 
 public aspect AspectoColor {
 	File file = new File("logColorBackground.txt");
-	pointcut colorN(): call(* colorNaranja(..)); 
+	pointcut colorC(): call(* colorCeleste());
     pointcut colorV(): call(* colorVerde(..)); 
     pointcut colorR(): call(* colorRosa(..)); 
     
-    after():colorN() {
-    	logColor("Naranja");
+    after():colorC() {
+    	logColor("Celeste");
     }
     after(): colorV() {
     	logColor("Verde");
